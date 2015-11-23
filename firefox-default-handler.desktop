@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+X-Nemo-Application-Type=silica-qt5
+Icon=firefox-default-handler
+Exec=invoker --type=generic -s /usr/bin/firefox-default-handler
+Name=Firefox Default Browser
+Name[cs_CZ]=Firefox jako výchozí prohlížeč
+
