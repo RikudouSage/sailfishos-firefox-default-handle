@@ -1,0 +1,6 @@
+/RPMS
+*.o
+/translations/*.qm
+/firefox-default-handler
+/Makefile
+/*.list
