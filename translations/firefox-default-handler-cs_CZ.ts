@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="cs_CZ">
+<TS version="2.1" language="cs_CZ">
 <context>
     <name>CoverPage</name>
     <message>
@@ -35,19 +35,6 @@
         <location filename="../qml/pages/Main.qml" line="85"/>
         <source>IMPORTANT: Do not delete this app without disabling!!! If you do so, you cannot restore to original url handler.</source>
         <translation>DŮLEŽITÉ: Nemažte aplikaci bez zrušení!!! Pokud to uděláte, nebude možné obnovit výchozí url handler.</translation>
-    </message>
-</context>
-<context>
-    <name>SecondPage</name>
-    <message>
-        <location filename="../qml/pages/SecondPage.qml" line="42"/>
-        <source>Nested Page</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/SecondPage.qml" line="49"/>
-        <source>Item</source>
-        <translation type="unfinished"></translation>
     </message>
 </context>
 </TS>
