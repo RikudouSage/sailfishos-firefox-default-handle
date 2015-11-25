@@ -4,7 +4,13 @@
 <context>
     <name>CoverPage</name>
     <message>
-        <source>Firefox as default</source>
+        <source>Firefox as default:
+Enabled</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Firefox as default:
+Disabled</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
