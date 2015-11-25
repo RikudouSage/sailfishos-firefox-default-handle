@@ -4,3 +4,4 @@
 /firefox-default-handler
 /Makefile
 /*.list
+/moc*.cpp
