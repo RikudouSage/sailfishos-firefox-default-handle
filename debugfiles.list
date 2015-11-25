@@ -1,8 +1,0 @@
-%dir /usr/lib/debug
-%dir /usr/lib/debug/.build-id
-%dir /usr/lib/debug/.build-id/9d
-%dir /usr/lib/debug/usr
-%dir /usr/lib/debug/usr/bin
-/usr/lib/debug/.build-id/9d/43738033cf31cb27702c525d6beae4c3b159c3.debug
-/usr/lib/debug/.build-id/9d/43738033cf31cb27702c525d6beae4c3b159c3
-/usr/lib/debug/usr/bin/firefox-default-handler.debug
