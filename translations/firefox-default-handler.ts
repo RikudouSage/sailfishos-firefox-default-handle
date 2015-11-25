@@ -13,6 +13,10 @@ Enabled</source>
 Disabled</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Firefox as default</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>Main</name>

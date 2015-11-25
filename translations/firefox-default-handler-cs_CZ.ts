@@ -1,17 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="cs_CZ">
+<TS version="2.1" language="cs_CZ">
 <context>
     <name>CoverPage</name>
     <message>
         <location filename="../qml/cover/CoverPage.qml" line="8"/>
+        <source>Firefox as default</source>
+        <translation>Firefox jako výchozí</translation>
+    </message>
+    <message>
+        <location filename="../qml/cover/CoverPage.qml" line="16"/>
         <source>Firefox as default:
 Enabled</source>
         <translation>Firefox jako výchozí:
 Povolen</translation>
     </message>
     <message>
-        <location filename="../qml/cover/CoverPage.qml" line="8"/>
+        <location filename="../qml/cover/CoverPage.qml" line="18"/>
         <source>Firefox as default:
 Disabled</source>
         <translation>Firefox jako výchozí:

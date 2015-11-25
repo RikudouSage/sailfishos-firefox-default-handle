@@ -5,7 +5,19 @@ CoverBackground {
     Label {
         id: label
         anchors.centerIn: parent
-        text: fh.isEnabled()?qsTr("Firefox as default:\nEnabled"):qsTr("Firefox as default:\nDisabled")
+        text: qsTr("Firefox as default")
         font.pixelSize: 20
+    }
+    Timer {
+        running: true
+        interval: 500
+        onTriggered: {
+            if(fh.isEnabled()) {
+                label.text = qsTr("Firefox as default:\nEnabled");
+            } else {
+                label.text = qsTr("Firefox as default:\nDisabled");
+            }
+        }
+        repeat: true
     }
 }
