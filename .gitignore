@@ -5,3 +5,4 @@
 /Makefile
 /*.list
 /moc*.cpp
+/*.pro.*
