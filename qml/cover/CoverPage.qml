@@ -14,6 +14,8 @@ CoverBackground {
         onTriggered: {
             if(fh.isEnabled()) {
                 label.text = qsTr("Firefox as default:\nEnabled");
+            } else if(fh.isEnabledBeta()) {
+                label.text = qsTr("Firefox as default:\nEnabled (beta)")
             } else {
                 label.text = qsTr("Firefox as default:\nDisabled");
             }

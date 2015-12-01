@@ -1,0 +1,8 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Type=Application
+Name=Firefox Beta HTTP handle
+NotShowIn=X-MeeGo;
+MimeType=text/html;x-maemo-urischeme/http;x-maemo-urischeme/https;
+Exec=/opt/alien/system/bin/adb -e shell am start -a android.intent.action.VIEW -n org.mozilla.firefox_beta/org.mozilla.gecko.BrowserApp -d ' %U'
+NoDisplay=true

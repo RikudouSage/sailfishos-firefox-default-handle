@@ -17,6 +17,11 @@ Disabled</source>
         <source>Firefox as default</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Firefox as default:
+Enabled (beta)</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>Main</name>
@@ -38,6 +43,14 @@ Disabled</source>
     </message>
     <message>
         <source>IMPORTANT: Do not delete this app without disabling!!! If you do so, you cannot restore to original url handler.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Enable Firefox Beta</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Disable Firefox Beta</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

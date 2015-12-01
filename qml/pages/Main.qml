@@ -12,11 +12,13 @@ Page {
             MenuItem {
                 id: enableitem
                 text: qsTr("Enable Firefox")
-                visible: !fh.isEnabled()
+                visible: !fh.isEnabled() && !fh.isEnabledBeta()
                 onClicked: {
                     fh.enable();
                     enableitem.visible = false;
+                    enablebeta.visible = false;
                     disableitem.visible = true;
+                    disablebeta.visible = false;
                 }
             }
 
@@ -27,6 +29,34 @@ Page {
                 onClicked: {
                     fh.disable();
                     enableitem.visible = true;
+                    disableitem.visible = false;
+                    enablebeta.visible = true;
+                    disablebeta.visible = false;
+                }
+            }
+
+            MenuItem {
+                id: enablebeta
+                text: qsTr("Enable Firefox Beta")
+                visible: !fh.isEnabled() && !fh.isEnabledBeta()
+                onClicked: {
+                    fh.enableBeta();
+                    enablebeta.visible = false;
+                    disablebeta.visible = true;
+                    enableitem.visible = false;
+                    disableitem.visible = false;
+                }
+            }
+
+            MenuItem {
+                id: disablebeta
+                text: qsTr("Disable Firefox Beta")
+                visible: fh.isEnabledBeta()
+                onClicked: {
+                    fh.disableBeta()
+                    enablebeta.visible = true;
+                    enableitem.visible = true;
+                    disablebeta.visible = false;
                     disableitem.visible = false;
                 }
             }

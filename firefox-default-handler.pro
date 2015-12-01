@@ -2,7 +2,8 @@ TARGET = firefox-default-handler
 
 MY_FILES = \
 other/restart-adb.sh \
-other/open-url.desktop
+other/open-url.desktop \
+other/open-url-beta.desktop
 
 OTHER_SOURCES += $$MY_FILES
 
