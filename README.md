@@ -20,7 +20,3 @@ If the app does not respond while enabling or disabling, don't quit it, just wai
 Contains English and Czech localization.
 
 And you need Firefox for Android installed on your device (surprisingly).
-
-# Build info
-
-The files in other should be in folder /usr/share/firefox-default-handler/ on target device, I don't know how to make it in .pro file so I make it manually.

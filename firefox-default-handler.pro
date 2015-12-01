@@ -1,5 +1,16 @@
 TARGET = firefox-default-handler
 
+MY_FILES = \
+other/restart-adb.sh \
+other/open-url.desktop
+
+OTHER_SOURCES += $$MY_FILES
+
+my_resources.path = $$PREFIX/share/$$TARGET
+my_resources.files = $$MY_FILES
+
+INSTALLS += my_resources
+
 CONFIG += sailfishapp
 
 SOURCES += src/firefox-default-handler.cpp
